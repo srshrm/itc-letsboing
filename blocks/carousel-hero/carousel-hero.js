@@ -77,7 +77,7 @@ function createSlide(row, slideIndex, carouselId) {
   slide.setAttribute('id', `carousel-hero-${carouselId}-slide-${slideIndex}`);
   slide.classList.add('carousel-hero-slide');
 
-  row.querySelectorAll(':scope > div').forEach((column, colIdx) => {
+  row.querySelectorAll(':scope > div').forEach((column) => {
     // Check if column has video or picture
     const hasVideo = column.querySelector('video');
     const hasPicture = column.querySelector('picture');

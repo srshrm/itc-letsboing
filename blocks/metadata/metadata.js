@@ -3,7 +3,7 @@
  * Extracts metadata from block and applies to document head
  */
 
-export default function decorate(block) {
+export default function decorate() {
   // Block is hidden via CSS, metadata is processed by scripts/aem.js
   // This decorator is a no-op but required for block loading
 }
